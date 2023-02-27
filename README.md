@@ -2,7 +2,7 @@
 ![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Zarox/&title=Profile%20Views)
 # My Social Profiles
 <p align="center">
-<a href="https://t.me/Zarox"><img alt="Telegram" src="https://img.shields.io/badge/Zarox-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://t.me/zarox"><img alt="Telegram" src="https://img.shields.io/badge/zarox-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 </p>
 
 <p align="center">
