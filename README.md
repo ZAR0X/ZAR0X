@@ -4,8 +4,8 @@
   <a href="#Gif"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="25px"></a>
 </h1><br><br>
 <p align="center">
-  <a href='mailto:mineiszarox@gmail.com' target="_blank"><img alt='Email' src='https://img.shields.io/badge/Email-100000?style=flat&logo=gmail&logoColor=0000FF&labelColor=black&color=black'/></a>
-  <a href='https://x.com/ZAR0X' target="_blank"><img alt='Twitter' src='https://img.shields.io/badge/Twitter-100000?style=flat&logo=Twitter&logoColor=0000FF&labelColor=black&color=black'/></a>
+  <a href='mailto:namezarox@gmail.com' target="_blank"><img alt='Email' src='https://img.shields.io/badge/Email-100000?style=flat&logo=gmail&logoColor=0000FF&labelColor=black&color=black'/></a>
+  <a href='https://x.com/EZAR0X' target="_blank"><img alt='Twitter' src='https://img.shields.io/badge/Twitter-100000?style=flat&logo=Twitter&logoColor=0000FF&labelColor=black&color=black'/></a>
   <a href='https://t.me/zarox' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/Telegram-100000?style=flat&logo=Telegram&logoColor=0000FF&labelColor=black&color=black'/></a>
   <a href='https://pypi.org/user/zarox/' target="_blank"><img alt='Pypi' src='https://img.shields.io/badge/Pypi-100000?style=flat&logo=Pypi&logoColor=0000FF&labelColor=black&color=black'/></a>
   <a href='https://zarox.link/' target="_blank"><img alt='Website' src='https://img.shields.io/badge/Website-100000?style=flat&logo=framer&logoColor=0000FF&labelColor=black&color=black'/></a><br><br>
