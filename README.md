@@ -1,23 +1,124 @@
-<h1 align="center" size="200">
-  <a href="#Gif"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="25px"></a>
-  Hi, I'm Zarox
-  <a href="#Gif"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="25px"></a>
-</h1><br><br>
+🔴🟡🟢
+
+<br>
+
+<div align="center">
+  <h1>👋 Hi, I'm Zarox</h1>
+  <p><i>Full-stack Developer | WebAssembly Enthusiast | Hackathon Winner</i></p>
+</div>
+
 <p align="center">
-  <a href='mailto:namezarox@gmail.com' target="_blank"><img alt='Email' src='https://img.shields.io/badge/Email-100000?style=flat&logo=gmail&logoColor=0000FF&labelColor=black&color=black'/></a>
-  <a href='https://x.com/EZAR0X' target="_blank"><img alt='Twitter' src='https://img.shields.io/badge/Twitter-100000?style=flat&logo=Twitter&logoColor=0000FF&labelColor=black&color=black'/></a>
-  <a href='https://t.me/zarox' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/Telegram-100000?style=flat&logo=Telegram&logoColor=0000FF&labelColor=black&color=black'/></a>
-  <a href='https://pypi.org/user/zarox/' target="_blank"><img alt='Pypi' src='https://img.shields.io/badge/Pypi-100000?style=flat&logo=Pypi&logoColor=0000FF&labelColor=black&color=black'/></a>
-  <a href='https://zarox.link/' target="_blank"><img alt='Website' src='https://img.shields.io/badge/Website-100000?style=flat&logo=framer&logoColor=0000FF&labelColor=black&color=black'/></a><br><br>
-  <a href="#GithubStat"><img src="https://github-stats-alpha.vercel.app/api?username=ZAR0X&cc=000&tc=fff&ic=0000FF&bc=000" align="center"><br><br></a>
-  <a href="#ViewsStat"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FZAR0X&count_bg=%23000000&title_bg=%230000FF&icon=&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false"/></a><br><br>
-  <a href="#StreakStat"><img src="https://streak-stats.demolab.com?user=ZAR0X&mode=wee&theme=vision-friendly-dark&border_radius=6.3" alt="GitHub Streak" /></a><br><br>
-  <a href='https://python.org' target="_blank"><img alt='Python' src='https://img.shields.io/badge/Python-100000?style=flat&logo=python&logoColor=0000FF&labelColor=black&color=black'/></a>
-  <a href='https://selenium.dev' target="_blank"><img alt='Selenium' src='https://img.shields.io/badge/Selenium-100000?style=flat&logo=selenium&logoColor=0000FF&labelColor=black&color=black'/></a>
- <br><br>
-  <a href='https://javascript.com' target="_blank"><img alt='JavaScript' src='https://img.shields.io/badge/JavaScript-100000?style=flat&logo=javascript&logoColor=FF8000&labelColor=black&color=black'/></a>
-  <a href='https://en.wikipedia.org/wiki/CSS' target="_blank"><img alt='CSS' src='https://img.shields.io/badge/CSS-100000?style=flat&logo=css3&logoColor=FF8000&labelColor=black&color=black'/></a>
-  <a href='https://en.wikipedia.org/wiki/HTML' target="_blank"><img alt='HTML' src='https://img.shields.io/badge/HTML-100000?style=flat&logo=html5&logoColor=FF8000&labelColor=black&color=black'/></a>
-  <a href='https://yaml.org' target="_blank"><img alt='YAML' src='https://img.shields.io/badge/NodeJS-100000?style=flat&logo=nodedotjs&logoColor=FF8000&labelColor=black&color=black'/></a>
-  <a href='https://docker.com' target="_blank"><img alt='Docker' src='https://img.shields.io/badge/Docker-100000?style=flat&logo=docker&logoColor=FF8000&labelColor=black&color=black'/></a><br><br>
+  <img src="https://komarev.com/ghpvc/?username=ZAR0X&color=blueviolet" alt="Profile views" />
+  &nbsp;
+  <a href="https://github.com/ZAR0X?tab=followers">
+    <img src="https://img.shields.io/github/followers/ZAR0X?style=social" alt="Followers" />
+  </a>
 </p>
+
+<div>
+
+  ## 🧭 &nbsp;About Me
+
+  - 📚 3rd-year B.Tech Computer Science student
+  - 🚀 Full-stack Developer specializing in **WebAssembly**, **Three.js**, **React**, and **Node.js**
+  - 🗾 Japanese language learner (JLPT N3)
+  - 🏆 Top 3 finisher in multiple hackathons
+  - 💬 Ask me about **web performance**, **3D web experiences**, or **system design**
+  - ⚡ Fun fact: I unironically vibe to the Minecraft OST while coding 🎵
+
+  <br>
+
+</div>
+
+<div align="center">
+
+  `Building performant web experiences`
+  <br>
+
+  `=========================`
+  <br>
+
+  `¯\_(ツ)_/¯`
+</div>
+
+<div>
+
+  ## 📚 &nbsp;Currently Studying
+
+  - System Design
+  - WebAssembly (Wasm) for web performance optimization
+  - Data Structures & Algorithms in Java
+  - Advanced React patterns and optimization techniques
+
+</div>
+
+<div>
+
+  ## 🛠️ &nbsp;My Tech Stack
+
+  ### Languages
+  ![Java](https://img.shields.io/badge/-Java-0D1117?style=flat&logo=openjdk&logoColor=ED8B00)&nbsp;
+  ![Python](https://img.shields.io/badge/-Python-0D1117?style=flat&logo=python)&nbsp;
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=flat&logo=javascript)&nbsp;
+  ![TypeScript](https://img.shields.io/badge/-TypeScript-0D1117?style=flat&logo=typescript)&nbsp;
+  ![C++](https://img.shields.io/badge/-C++-0D1117?style=flat&logo=cplusplus&logoColor=00599C)&nbsp;
+  ![Go](https://img.shields.io/badge/-Go-0D1117?style=flat&logo=go)&nbsp;
+  ![Rust](https://img.shields.io/badge/-Rust-0D1117?style=flat&logo=rust)&nbsp;
+
+  ### Frontend
+  ![React](https://img.shields.io/badge/-React-0D1117?style=flat&logo=react)&nbsp;
+  ![Three.js](https://img.shields.io/badge/-Three.js-0D1117?style=flat&logo=threedotjs)&nbsp;
+  ![Framer Motion](https://img.shields.io/badge/-Framer%20Motion-0D1117?style=flat&logo=framer)&nbsp;
+  ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-0D1117?style=flat&logo=tailwindcss)&nbsp;
+  ![HTML5](https://img.shields.io/badge/-HTML5-0D1117?style=flat&logo=html5)&nbsp;
+  ![CSS3](https://img.shields.io/badge/-CSS3-0D1117?style=flat&logo=css3&logoColor=1572B6)&nbsp;
+
+  ### Backend & Databases
+  ![Node.js](https://img.shields.io/badge/-Node.js-0D1117?style=flat&logo=node.js)&nbsp;
+  ![Express](https://img.shields.io/badge/-Express-0D1117?style=flat&logo=express)&nbsp;
+  ![Flask](https://img.shields.io/badge/-Flask-0D1117?style=flat&logo=flask)&nbsp;
+  ![Supabase](https://img.shields.io/badge/-Supabase-0D1117?style=flat&logo=supabase)&nbsp;
+  ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-0D1117?style=flat&logo=postgresql)&nbsp;
+  ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=flat&logo=mongodb)&nbsp;
+  ![Redis](https://img.shields.io/badge/-Redis-0D1117?style=flat&logo=redis)&nbsp;
+
+  ### DevOps & Tools
+  ![Docker](https://img.shields.io/badge/-Docker-0D1117?style=flat&logo=docker)&nbsp;
+  ![Git](https://img.shields.io/badge/-Git-0D1117?style=flat&logo=git)&nbsp;
+  ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-0D1117?style=flat&logo=githubactions)&nbsp;
+  ![Linux](https://img.shields.io/badge/-Linux-0D1117?style=flat&logo=linux)&nbsp;
+  ![Vercel](https://img.shields.io/badge/-Vercel-0D1117?style=flat&logo=vercel)&nbsp;
+
+  ### AI & Misc
+  ![OpenCV](https://img.shields.io/badge/-OpenCV-0D1117?style=flat&logo=opencv)&nbsp;
+  ![Selenium](https://img.shields.io/badge/-Selenium-0D1117?style=flat&logo=selenium)&nbsp;
+  ![Puppeteer](https://img.shields.io/badge/-Puppeteer-0D1117?style=flat&logo=puppeteer)&nbsp;
+
+</div>
+
+<div>
+
+  ## 📊 &nbsp;My GitHub Stats
+  <a href="https://github.com/ZAR0X">
+    <img width=450 height=170 align="center" alt="ZAR0X's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=ZAR0X&theme=midnight-purple&show_icons=true&bg_color=0D1117&hide_border=true&count_private=true" />
+  </a>
+  <a href="https://github.com/ZAR0X">
+    <img align="center" alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZAR0X&theme=midnight-purple&layout=compact&bg_color=0D1117&hide_border=true&count_private=true" />
+  </a>
+</div>
+
+<div>
+
+  ## 📫 &nbsp;Connect With Me
+
+  [![LinkedIn Badge](https://img.shields.io/badge/--blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ram-gour/)](https://www.linkedin.com/in/ram-gour/)&nbsp;
+  [![Gmail Badge](https://img.shields.io/badge/--red?style=flat-square&logo=Gmail&logoColor=white)](mailto:gourram790@gmail.com)&nbsp;
+  [![GitHub Badge](https://img.shields.io/badge/-ZAR0X-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/ZAR0X)&nbsp;
+
+</div>
+
+<div>
+  <img src="https://github.com/ZAR0X/ZAR0X/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
+</div>
+
+------
