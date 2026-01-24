@@ -3,7 +3,7 @@
 <br>
 
 <div align="center">
-  <h1>👋 Hi, I'm Zarox</h1>
+  <h1>👋 Hi, I'm Ram Gour (Zarox)</h1>
   <p><i>Full-stack Developer | WebAssembly Enthusiast | Hackathon Winner</i></p>
 </div>
 
@@ -111,9 +111,11 @@
 
   ## 📫 &nbsp;Connect With Me
 
-  [![LinkedIn Badge](https://img.shields.io/badge/--blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ram-gour/)](https://www.linkedin.com/in/ram-gour/)&nbsp;
-  [![Gmail Badge](https://img.shields.io/badge/--red?style=flat-square&logo=Gmail&logoColor=white)](mailto:gourram790@gmail.com)&nbsp;
-  [![GitHub Badge](https://img.shields.io/badge/-ZAR0X-181717?style=flat-square&logo=GitHub&logoColor=white)](https://github.com/ZAR0X)&nbsp;
+  [![Portfolio Badge](https://img.shields.io/badge/-Portfolio-blueviolet?style=flat-square&logo=Safari&logoColor=white)](https://zarox.is-a.dev)&nbsp;
+  [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ram-gour/)](https://www.linkedin.com/in/ram-gour/)&nbsp;
+  [![Gmail Badge](https://img.shields.io/badge/--red?style=flat-square&logo=Gmail&logoColor=white)](mailto:mineiszarox@gmail.com)&nbsp;
+  [![Discord Badge](https://img.shields.io/badge/--5865F2?style=flat-square&logo=Discord&logoColor=white)](https://discord.com/users/4ar0x)&nbsp;
+  [![Telegram Badge](https://img.shields.io/badge/--26A5E4?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/zarox)&nbsp;
 
 </div>
 
