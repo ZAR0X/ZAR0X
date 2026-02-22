@@ -3,7 +3,7 @@
 <br>
 
 <div align="center">
-  <h1>👋 Hi, I'm Ram Gour (Zarox)</h1>
+  <h1>👋 Hi, I'm Ram Gour (Wudi)</h1>
   <p><i>Full-stack Developer | WebAssembly Enthusiast | Hackathon Winner</i></p>
 </div>
 
