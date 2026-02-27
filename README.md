@@ -62,8 +62,6 @@
   ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=flat&logo=javascript)&nbsp;
   ![TypeScript](https://img.shields.io/badge/-TypeScript-0D1117?style=flat&logo=typescript)&nbsp;
   ![C++](https://img.shields.io/badge/-C++-0D1117?style=flat&logo=cplusplus&logoColor=00599C)&nbsp;
-  ![Go](https://img.shields.io/badge/-Go-0D1117?style=flat&logo=go)&nbsp;
-  ![Rust](https://img.shields.io/badge/-Rust-0D1117?style=flat&logo=rust)&nbsp;
 
   ### Frontend
   ![React](https://img.shields.io/badge/-React-0D1117?style=flat&logo=react)&nbsp;
