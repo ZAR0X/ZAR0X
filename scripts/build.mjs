@@ -2,7 +2,7 @@
 // Draws every graphic on the profile README. No dependencies.
 //
 //   node scripts/build.mjs static            banner, buttons, stack and project cards -> assets/
-//   node scripts/build.mjs stats             contribution cards from the GitHub API   -> dist/
+//   node scripts/build.mjs stats             contribution and view-count cards, live  -> dist/
 //   node scripts/build.mjs stats --sample    the same cards with made-up numbers
 //
 // Each graphic is written twice, as -light.svg and -dark.svg, and the README picks one
@@ -297,6 +297,54 @@ function yearsCard(years, theme) {
   return c.render();
 }
 
+// ------------------------------------------------------------------ profile views
+
+const EYE = (s) => `<g fill="none" stroke="${s}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M1.2 7s2.2-4.2 5.8-4.2S12.8 7 12.8 7s-2.2 4.2-5.8 4.2S1.2 7 1.2 7Z"/><circle cx="7" cy="7" r="1.9"/></g>`;
+
+// Drawn like the stack chips. `count` is null when the number could not be read.
+function viewsCard(count, theme) {
+  const t = THEMES[theme];
+  const H = 28, PAD = 10, ICON = 14, GAP = 7, SIZE = 12.5;
+  const figure = count === null ? '–' : fmt(count);
+  const label = ' profile views';
+  const width = Math.ceil(PAD + ICON + GAP + measure(figure, 'strong', SIZE) + measure(label, 'regular', SIZE) + PAD);
+  const c = canvas(width, H, count === null ? 'Profile views' : `${figure} profile views`);
+  c.add(`<rect x=".5" y=".5" width="${width - 1}" height="${H - 1}" rx="6.5" fill="${t.tint}" fill-opacity="${t.tintOpacity}" stroke="${t.faint}"/>`);
+  c.add(`<g transform="translate(${PAD} ${(H - ICON) / 2})">${EYE(t.accent)}</g>`);
+  const x = PAD + ICON + GAP;
+  const w = c.text(figure, { face: 'strong', size: SIZE, x, y: H / 2 + 4.5, fill: t.ink });
+  c.text(label, { size: SIZE, x: x + w, y: H / 2 + 4.5, fill: t.muted });
+  return c.render();
+}
+
+// The counter itself is the invisible komarev.com image in README.md, which counts a view
+// each time GitHub loads it. Reading the badge from here does not add a view: the service
+// only counts requests that come from GitHub's image proxy.
+async function profileViews(login) {
+  const res = await fetch(`https://komarev.com/ghpvc/?username=${encodeURIComponent(login)}&style=flat`, {
+    headers: { 'user-agent': `${login}-profile-readme` },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!res.ok) throw new Error(`counter answered ${res.status}`);
+  const badge = await res.text();
+  const figure = [...badge.matchAll(/<text[^>]*>([^<]*)<\/text>/g)].map((m) => m[1].trim()).reverse().find((text) => /^\d[\d,]*$/.test(text));
+  if (!figure) throw new Error('no number in the counter badge');
+  return Number(figure.replaceAll(',', ''));
+}
+
+// If the counter cannot be read, keep the card that is already published instead of blanking it.
+async function publishedViewsCard(theme) {
+  const repo = process.env.GITHUB_REPOSITORY;
+  if (!repo) return null;
+  try {
+    const res = await fetch(`https://raw.githubusercontent.com/${repo}/output/views-${theme}.svg`, { signal: AbortSignal.timeout(15000) });
+    const svg = res.ok ? await res.text() : '';
+    return svg.startsWith('<svg') ? svg : null;
+  } catch {
+    return null;
+  }
+}
+
 // ------------------------------------------------------------------ GitHub data
 
 async function graphql(token, query, variables) {
@@ -318,7 +366,7 @@ async function contributionsByYear(sample) {
       { year: 2024, count: 1304 }, { year: 2025, count: 978 }, { year: 2026, count: 731 },
     ];
   }
-  const login = process.env.GH_USER || process.env.GITHUB_REPOSITORY_OWNER || profile.user;
+  const login = LOGIN;
   const token = process.env.GITHUB_TOKEN;
   if (!token) throw new Error('Set GITHUB_TOKEN, or pass --sample.');
 
@@ -342,6 +390,7 @@ async function writeBoth(dir, name, draw) {
 }
 
 const [mode, ...flags] = process.argv.slice(2);
+const LOGIN = process.env.GH_USER || process.env.GITHUB_REPOSITORY_OWNER || profile.user;
 
 if (mode === 'static') {
   const dir = process.env.OUT_DIR || 'assets';
@@ -354,11 +403,25 @@ if (mode === 'static') {
   console.log(`Static graphics written to ${dir}/`);
 } else if (mode === 'stats') {
   const dir = process.env.OUT_DIR || 'dist';
-  const years = await contributionsByYear(flags.includes('--sample'));
+  const sample = flags.includes('--sample');
+  const years = await contributionsByYear(sample);
   await mkdir(dir, { recursive: true });
   await writeBoth(dir, 'contributions-total', (theme) => totalCard(years, theme));
   await writeBoth(dir, 'contributions-years', (theme) => yearsCard(years, theme));
   console.log(`${fmt(years.reduce((s, y) => s + y.count, 0))} contributions across ${years.length} years -> ${dir}/`);
+
+  // A view count that cannot be read must not stop the snake and contribution cards publishing.
+  let views = null;
+  try {
+    views = sample ? 282 : await profileViews(LOGIN);
+    console.log(`${fmt(views)} profile views -> ${dir}/`);
+  } catch (error) {
+    console.warn(`Could not read the profile view count (${error.message}); keeping the published card.`);
+  }
+  for (const theme of ['light', 'dark']) {
+    const card = views === null ? (await publishedViewsCard(theme)) ?? viewsCard(null, theme) : viewsCard(views, theme);
+    await writeFile(`${dir}/views-${theme}.svg`, card);
+  }
 } else {
   console.error('Usage: node scripts/build.mjs static | stats [--sample]');
   process.exit(1);
