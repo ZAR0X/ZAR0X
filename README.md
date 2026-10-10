@@ -1,7 +1,7 @@
 <p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/banner-dark.svg" />
-    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/banner-light.svg" width="100%" alt="Ram Gour. Full-stack engineer, backend and interactive web." />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/banner-light.svg" width="100%" alt="ZAROX. Ram Gour, a full-stack engineer working from PostgreSQL schemas and async Python services up to shader-driven 3D interfaces." />
   </picture>
 </p>
 

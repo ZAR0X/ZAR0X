@@ -1,0 +1,10 @@
+{
+  "name": "zar0x-profile",
+  "private": true,
+  "type": "module",
+  "description": "Graphics for the ZAR0X GitHub profile, and the live view-count card served from Vercel.",
+  "scripts": {
+    "static": "node scripts/build.mjs static",
+    "stats:sample": "node scripts/build.mjs stats --sample"
+  }
+}

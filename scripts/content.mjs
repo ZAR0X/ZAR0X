@@ -6,8 +6,8 @@
 
 export const profile = {
   user: 'ZAR0X',
-  name: 'Ram Gour',
-  tagline: 'Full-stack engineer, backend and interactive web',
+  name: 'ZAROX',
+  tagline: 'Ram Gour, a full-stack engineer working from PostgreSQL schemas and async Python services up to shader-driven 3D interfaces.',
 
   // One button each. The first is drawn filled, the rest outlined.
   links: [
