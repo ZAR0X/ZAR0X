@@ -1,26 +1,98 @@
-<img src="assets/hero.svg" width="100%" alt="Ram Gour" />
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/banner-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/banner-light.svg" width="100%" alt="Ram Gour. Full-stack engineer, backend and interactive web." />
+  </picture>
+</p>
 
-Full-stack engineer working across async Python backends, React and WebGL front ends, and RAG pipelines. Currently building 3D web experiences at Apisomi and maintaining [CatUserBot](https://github.com/TgCatUB/catuserbot), an open-source framework running on 15,000+ self-hosted deployments. Mostly Python, TypeScript, FastAPI, PostgreSQL, React Three Fiber and GLSL.
-
-[Portfolio](https://zarox.is-a.dev) &nbsp;&nbsp;&nbsp; [LinkedIn](https://linkedin.com/in/ramgour) &nbsp;&nbsp;&nbsp; [Email](mailto:gourram790@gmail.com)
-
-### Selected work
-
-- [**hail-rag-engine**](https://github.com/ZAR0X/hail-rag-engine) &nbsp; Multimodal RAG over lecture videos, built on FastAPI, Whisper and ChromaDB
-- [**NidarCopilot**](https://github.com/ZAR0X/NidarCopilot) &nbsp; AI tax assistant that drafts GST returns from ledger data ([live](https://zarox.is-a.dev/NidarCopilot/))
-- [**CatVCPlayer**](https://github.com/TgCatUB/CatVCPlayer) &nbsp; Voice-chat media streaming for the CatUserBot deployment base
-- [**duckgpt**](https://github.com/ZAR0X/duckgpt) &nbsp; A graphical interface for DuckGPT
+<p>
+  <a href="https://zarox.is-a.dev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/link-portfolio-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/link-portfolio-light.svg" alt="Portfolio" />
+    </picture>
+  </a>
+  <a href="https://linkedin.com/in/ramgour">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/link-linkedin-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/link-linkedin-light.svg" alt="LinkedIn" />
+    </picture>
+  </a>
+  <a href="mailto:gourram790@gmail.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/link-email-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/link-email-light.svg" alt="Email" />
+    </picture>
+  </a>
+</p>
 
 <br />
 
 <p>
-  <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/contributions-total.svg" width="410" alt="Total contributions since the account was created" />
-  <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/contributions-years.svg" width="410" alt="Contributions by year" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/stack-core-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/stack-core-light.svg" width="410" alt="Languages: Python, TypeScript, JavaScript, C++, C, Java, SQL. Backend and data: FastAPI, PostgreSQL, Supabase, Docker, Node.js." />
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/stack-web-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/stack-web-light.svg" width="410" alt="Frontend and graphics: React, Three.js, WebGL, GLSL, GSAP, Tailwind CSS, Vite. AI and tooling: RAG pipelines, ChromaDB, Whisper, Git, GitHub Actions, Linux." />
+  </picture>
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/github-contribution-grid-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution graph, animated as a snake" />
-</picture>
+<br />
+
+<p>
+  <a href="https://github.com/TgCatUB/catuserbot">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-catuserbot-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-catuserbot-light.svg" width="410" alt="CatUserBot: open-source Telegram userbot framework with 15,000+ deployments" />
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/TgCatUB/CatVCPlayer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-catvcplayer-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-catvcplayer-light.svg" width="410" alt="CatVCPlayer: voice-chat media streaming plugin for CatUserBot" />
+    </picture>
+  </a>
+</p>
+
+<p>
+  <a href="https://github.com/ZAR0X/hail-rag-engine">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-hail-rag-engine-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-hail-rag-engine-light.svg" width="410" alt="hail-rag-engine: multimodal RAG over lecture videos" />
+    </picture>
+  </a>
+  &nbsp;
+  <a href="https://github.com/ZAR0X/NidarCopilot">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-nidarcopilot-dark.svg" />
+      <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/main/assets/work-nidarcopilot-light.svg" width="410" alt="NidarCopilot: AI tax assistant that drafts GST returns from ledger data" />
+    </picture>
+  </a>
+</p>
+
+<br />
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/contributions-total-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/contributions-total-light.svg" width="410" alt="Total contributions since the account was created" />
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/contributions-years-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/contributions-years-light.svg" width="410" alt="Contributions by year" />
+  </picture>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution graph, animated as a snake" />
+  </picture>
+</p>
 
 <img src="https://komarev.com/ghpvc/?username=ZAR0X&label=profile+views&color=6e7681&style=flat-square" alt="Profile views" />
