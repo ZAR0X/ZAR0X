@@ -1,13 +1,13 @@
-name: Generate Snake
+name: Generate profile assets
 
 on:
   # Run automatically every 12 hours
   schedule:
     - cron: "0 */12 * * *"
-  
+
   # Allows manual trigger from Actions tab
   workflow_dispatch:
-  
+
   # Run on every push to main branch
   push:
     branches:
@@ -21,19 +21,30 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Generates the snake animation
-      - name: Generate github-contribution-grid-snake.svg
+      # Needed so the job can run scripts/stats.mjs
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      # Generates the snake animation, coloured to match the rest of the profile
+      - name: Generate the contribution snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ZAR0X
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#24292f&color_dots=#ebedf0,#ddd5fb,#b9a8f5,#8f76ea,#6a4ee0
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#c9d1d9&color_dots=#161b22,#2b2350,#4a3a8c,#7458c9,#a48cf2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Generates the all-time contribution cards
+      - name: Generate the contribution cards
+        run: node scripts/stats.mjs
+        env:
+          GH_USER: ZAR0X
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # Push the generated files to the output branch
-      - name: Push github-contribution-grid-snake.svg to output branch
+      - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
