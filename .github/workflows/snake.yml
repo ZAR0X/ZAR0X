@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      # Needed so the job can run scripts/stats.mjs
+      # Needed so the job can run scripts/build.mjs
       - name: Check out the repository
         uses: actions/checkout@v4
 
@@ -38,7 +38,7 @@ jobs:
 
       # Generates the all-time contribution cards
       - name: Generate the contribution cards
-        run: node scripts/stats.mjs
+        run: node scripts/build.mjs stats
         env:
           GH_USER: ZAR0X
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
