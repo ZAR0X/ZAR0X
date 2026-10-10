@@ -97,8 +97,8 @@
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/views-dark.svg" />
-    <img src="https://raw.githubusercontent.com/ZAR0X/ZAR0X/output/views-light.svg" alt="Profile views" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://your-project.vercel.app/api/views?theme=dark" />
+    <img src="https://your-project.vercel.app/api/views?theme=light" alt="Profile views" />
   </picture>
   <!-- Invisible: this is what counts each profile view. The card above only displays the total. -->
   <img src="https://komarev.com/ghpvc/?username=ZAR0X&style=pixel" width="1" height="1" alt="" />
